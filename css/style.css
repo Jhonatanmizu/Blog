@@ -1,0 +1,129 @@
+/*clear default style*/
+* {
+  margin: 0;
+  padding: 0;
+}
+/*body*/
+body {
+  font-size: em;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e6e6e6;
+}
+/*Layout*/
+#cabecalho {
+  background-color: #699ff5;
+  padding: 15px;
+  text-align: center;
+}
+/*logo & menu*/
+#logo,
+menu {
+  padding: 10px;
+}
+h1{
+  color: #424242;
+  font-size: 2.5em;
+  font-family: cursive;
+  font-weight: bolder;
+}
+h2{
+  color: #699ff5;
+  text-align: left;
+}
+.datapost{
+  align-content: left;
+  text-align: left;
+  font-size: 0.8em;
+  border-bottom: 1px solid #f4f4f4;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+.white {
+  color: white;
+}
+/*style link of menu*/
+a {
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#cabecalho a:link, #cabecalho a:visited {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+}
+#cabecalho a:hover {
+  color: #99c0ff;
+  background-color: antiquewhite;
+}
+/*end of menu*/
+/*link of content*/
+a:hover{
+  background-color: honeydew;
+  text-decoration: underline;
+}
+a:visited, a:link{
+  color:#699ff5;
+}
+
+/* End link of content*/
+/*Content*/
+#content{
+    width: 920px;
+    align-content: center;
+    margin: auto;
+}
+#Post{
+    width: 660px;
+    float: left;
+    margin-top: 10px;
+}
+#sidebar{
+    float: right;
+    width: 240px;
+    margin: 10px;
+}
+/*sidebar config*/
+#lateralid{
+background-color: beige;
+font-size: 1em;
+padding: 10px;
+margin-bottom: 20px;
+
+}
+.lateralcontent{
+font-size: 1em;
+padding: 5px;
+border-bottom: 1px dotted #CCC;
+}
+h3{
+  padding: 5px;
+  color: #565656;
+  background-color:#CCC;
+}
+/*sidebar end*/
+#foot{
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-align: center;
+    align-content: center;
+    clear: both;
+    padding: 15px;
+    background-color: beige;
+
+}
+.text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-content: center;
+    text-align: justify;
+    font-size: medium;
+}
+.posts{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: beige;
+}
+.readmore{
+    text-align: left;
+    align-content: left;
+    clear: both;
+}
